@@ -3,7 +3,7 @@ body {
     font-size: 20px;
 }
 
-header, nav, header div, .cover {
+.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +36,45 @@ header h2 {
     justify-content: center;
     flex-direction: column;
     height: 90vh;
-    background: url('src/XXXL\ \(4\).webp');
+    background: url('src/logo.jpg');
     background-size: cover;
+}
+
+.cover h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0;
+}
+
+.cover button {
+    background-color: rgb(107, 107, 107);
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.cover button:hover {
+    transition: all 0.5s linear;    
+    background-color: rgb(80, 80, 80);
+}
+
+.cover p {
+    color: white;
+}
+
+.about .flex {
+    flex-direction: column;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px -5px black;
+}
+
+.about {
+    padding: 5% 10%;
 }
