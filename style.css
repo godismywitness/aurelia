@@ -3,6 +3,10 @@ body {
     font-size: 20px;
 }
 
+.vertical {
+    flex-direction: column;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -77,4 +81,25 @@ header h2 {
 
 .about {
     padding: 5% 10%;
+}
+
+.rooms {
+    flex-direction: column;
+}
+
+.rooms article {
+    border-radius: 15px;
+    background-color: grey;
+}
+
+.karycel img {
+    height: 40vh;
+}
+
+.info {
+    height: 100%;
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
 }
