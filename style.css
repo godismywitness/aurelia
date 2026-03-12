@@ -85,14 +85,18 @@ header h2 {
 
 .rooms {
     flex-direction: column;
+    border-radius: 15px;
+    gap: 20px
 }
 
 .rooms article {
     border-radius: 15px;
-    background-color: grey;
+    background-color: white;
+    box-shadow: 0px 5px 15px 5px rgb(58, 57, 57);
 }
 
 .karycel img {
+    border-radius: 15px 0px 0px 15px;
     height: 40vh;
 }
 
@@ -102,4 +106,19 @@ header h2 {
     align-items: flex-start;
     justify-content: flex-start;
     background-color: white;
+}
+
+.info button {
+    background-color: rgb(107, 107, 107);
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.book {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
