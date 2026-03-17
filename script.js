@@ -6,20 +6,6 @@ let data = [{
         about: "Удобная комната, комфортная, лучшая",
         photo: 'src/XXXL (18).webp'
     },
-    {
-        name: 'Комната двухместная',
-        price: 1000,
-        curency: '$',
-        about: "Удобная комната, комфортная, лучшая",
-        photo: 'src/XXXL (18).webp'
-    },
-    {
-        name: 'Комната двухместная',
-        price: 1000,
-        curency: '$',
-        about: "Удобная комната, комфортная, лучшая",
-        photo: 'src/XXXL (18).webp'
-    }
 ]
 
 for (r of data) {
@@ -34,10 +20,17 @@ for (r of data) {
                             <p>${r.about}</p>
                             <div class='flex book       '>
                                 <h3><span>${r.price}</span>${r.curency} за ночь</h3>
-                                <button onclick="window.location.href='contacts.html'">Забронировать</button>
                             </div>
                             <details>
-                                <summary>Заголовок</summary>
+                                <summary>Удобства</summary>
+                                <ul>
+                                    <li>Интернет Wi-Fi</li>
+                                    <li>Автостоянка</li>
+                                    <li>Дети любого возраста</li>
+                                    <li>Есть трансфер</li>
+                                    <li>Сейф</li>
+                                    <li>Зеленый двор</li>
+                                </ul>
                             </details>
                         </div>`
     rooms.appendChild(room)
